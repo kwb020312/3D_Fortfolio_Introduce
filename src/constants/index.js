@@ -28,15 +28,15 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "내정보",
   },
   {
     id: "work",
-    title: "Work",
+    title: "기술 스택",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "연락처",
   },
 ];
 
