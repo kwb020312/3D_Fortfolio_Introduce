@@ -66,4 +66,8 @@ export {
   jobit,
   tripguide,
   ChobbyLogo,
+  tiktok,
+  alyak,
+  facebook,
+  openai,
 };
