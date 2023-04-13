@@ -65,8 +65,8 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <p className={styles.sectionSubText}>저에게 연락하고 싶으신가요?</p>
+        <h3 className={styles.sectionHeadText}>언제든지 연락주세요!</h3>
 
         <form
           ref={formRef}

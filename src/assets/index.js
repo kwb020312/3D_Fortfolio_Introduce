@@ -46,8 +46,14 @@ import ChoiceBook from "./ChoiceBook.png";
 import TikTikClone from "./TikTikClone.png";
 import DALLEClone from "./DALLECLone.png";
 import SamilFood from "./SamilSchoolFood.png";
+import Unknown from "./Unknown.png";
+import Sanghyun from "./Sanghyun.jpg";
+import MyBro from "./MyBro.png";
 
 export {
+  MyBro,
+  Sanghyun,
+  Unknown,
   SamilFood,
   DALLEClone,
   TikTikClone,

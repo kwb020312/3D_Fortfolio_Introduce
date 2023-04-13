@@ -37,6 +37,9 @@ import {
   TikTikClone,
   DALLEClone,
   SamilFood,
+  Unknown,
+  Sanghyun,
+  MyBro,
 } from "../assets";
 
 export const navLinks = [
@@ -186,26 +189,34 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "혼자 뭘 만들고 있는지는 모르겠는데, 어느새 보면 이상한걸 항상 만들어온다. 실질적으로 도움이 될지는 모르겠지만 요즘은 그래도 퀄리티가 괜찮아진듯",
+    name: "김학X 멘토님",
+    designation: "익명",
+    company: "IT 아카데미",
+    image: Unknown,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "열심히 노력하는 모습이 보기 좋습니다 ㅎㅎ 비록 같은 회사에서 일해보진 않았지만 항상 열심히 하는모습 응원해요~",
+    name: "김상현님",
+    designation: "JavaScript Mastery",
+    company: "수강생",
+    image: Sanghyun,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "아주 푸딩같은 녀석, 물론 이유는 없다. 이유도 있어야해? 안좋은 일이 생기면 탄력있게 튕겨낸다 해야하나",
+    name: "김우혁",
+    designation: "형",
+    company: "가족",
+    image: MyBro,
+  },
+  {
+    testimonial:
+      "극소수한테만 공개해서 아직 네명이나 못 보여줬습니다.. 학교에서 자랑하고 반응 있으면 추가할 예정",
+    name: "절대 왕따 아님",
+    designation: "오해",
+    company: "하지마요",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
