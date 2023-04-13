@@ -36,7 +36,26 @@ import tripguide from "./tripguide.png";
 
 import ChobbyLogo from "./chobby-logo.png";
 
+import Nwitter from "./Nwitter.png";
+import Instar from "./Instar.png";
+import ArcGIS from "./ArcGIS.png";
+import GMap from "./GMap.png";
+import Chomovie from "./ChoMovie.png";
+import NextMovie from "./NextMovie.png";
+import ChoiceBook from "./ChoiceBook.png";
+import TikTikClone from "./TikTikClone.png";
+import DALLEClone from "./DALLECLone.png";
+import SamilFood from "./SamilSchoolFood.png";
+
 export {
+  SamilFood,
+  DALLEClone,
+  TikTikClone,
+  ChoiceBook,
+  NextMovie,
+  Chomovie,
+  GMap,
+  ArcGIS,
   logo,
   backend,
   creator,
@@ -70,4 +89,6 @@ export {
   alyak,
   facebook,
   openai,
+  Nwitter,
+  Instar,
 };

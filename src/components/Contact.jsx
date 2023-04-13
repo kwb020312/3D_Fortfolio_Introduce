@@ -17,9 +17,47 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
 
-  const handleSubmit = (e) => {};
+    setForm({ ...form, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs
+      .send(
+        "service_hfegsz9",
+        "template_m9bgznh",
+        {
+          from_name: form.name,
+          to_name: "Chobby",
+          from_email: form.email,
+          to_email: "kwb020312@naver.com",
+          message: form.message,
+        },
+        "HXpPkqgsJl8sRK2pg"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("성공적으로 전송되었습니다. 감사합니다.");
+
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.log(error);
+          alert("문제가 발생했습니다. 금방 조치하겠습니다.");
+        }
+      );
+  };
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">

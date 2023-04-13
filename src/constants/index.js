@@ -27,6 +27,16 @@ import {
   alyak,
   facebook,
   openai,
+  Nwitter,
+  Instar,
+  ArcGIS,
+  GMap,
+  Chomovie,
+  NextMovie,
+  ChoiceBook,
+  TikTikClone,
+  DALLEClone,
+  SamilFood,
 } from "../assets";
 
 export const navLinks = [
@@ -202,67 +212,214 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "삼일상고 급식알리미",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "점심시간만 되면 너무 배고파.. 난 손가락 하나 까딱하지 않고 급식 메뉴를 받고싶었다. 식욕은 당연한 본능이니까, Expo를 사용한 앱 애플리케이션",
     tags: [
       {
-        name: "react",
+        name: "Expo",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "ReactJS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "AWS Lambda",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: SamilFood,
+    source_code_link: "https://github.com/kwb020312/Expo_SamilHighSchool_Meal",
   },
   {
-    name: "Job IT",
+    name: "Nwitter",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "트위터를 클론 코딩하여 Next.js 로 제작한 후 FireBase의 실시간 연동을 통해 실시간 댓글 및 게시물 게시 기능을 구현하였다.",
     tags: [
       {
-        name: "react",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "FireBase",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "RealTime",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: Nwitter,
+    source_code_link: "https://github.com/kwb020312/Nwitter",
   },
   {
-    name: "Trip Guide",
+    name: "춉스타그램",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Expo를 활용한 인스타그램 클론 코딩으로, 실시간 데이터를 불러오고 인스타의 실시간 인기 피드 API를 호출하여 내용을 표시함",
     tags: [
       {
-        name: "nextjs",
+        name: "Expo",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "ReactJS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Instagram",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Instar,
+    source_code_link: "https://github.com/kwb020312/InstarClone",
+  },
+  {
+    name: "문화재 지도",
+    description:
+      "GLTF 형식의 문화재 데이터를 어떤 방식으로 활용할지 고민하다, ThreeJS를 통하여 ArcGIS Map에 불러와 어느 지역에 어떤 문화재가 있는지 확인 가능한 지도애플리케이션을 만들었음",
+    tags: [
+      {
+        name: "ArcGIS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ThreeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ArcGIS,
+    source_code_link: "https://github.com/kwb020312/ArcGIS_KeyongCheonSazi",
+  },
+  {
+    name: "쵸비 맵",
+    description:
+      "각 나라에 어떤 장소가 있는지 확인하고, 클러스터링 기능, 로드맵 기능을 구현한 Google API MAP 애플리케이션이다.",
+    tags: [
+      {
+        name: "Google Map",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "VanilaJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Road Map",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: GMap,
+    source_code_link: "https://github.com/kwb020312/Google_Map_Wipco",
+  },
+  {
+    name: "아폴로 어워드",
+    description:
+      "영화 정보제공 API를 사용하여 Apollo, GraphQL로 데이터를 전처리해 불필요한 데이터를 덜어내고 정보를 제공하는 영화 웹 애플리케이션",
+    tags: [
+      {
+        name: "Apollo",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GraphQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Movie",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Chomovie,
+    source_code_link: "https://github.com/kwb020312/Nomad_MovieQL",
+  },
+  {
+    name: "Next Movie",
+    description:
+      "NextJS를 사용하여, URL이동의 이점을 살펴보고, Pre-Lendering을 통해 사용자 경험을 증가시키는 영화 웹 애플리케이션",
+    tags: [
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Vercel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Movie",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: NextMovie,
+    source_code_link: "https://github.com/kwb020312/NextJS_MovieApp",
+  },
+  {
+    name: "쵸이스북",
+    description:
+      "HTML, CSS, JavaScript, MySQL로 기본 역량을 강화하기 위해 페이스북을 클론코딩함, 나 때는 이런 인터페이스였다. 딱 딱...",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ChoiceBook,
+    source_code_link: "https://github.com/kwb020312/faceclone",
+  },
+  {
+    name: "틱틱",
+    description:
+      "틱톡 요즘 대세라면서.. 근데 보안 문제 있다길래 화나서 그냥 만들어버렸음. Vite, MongoDB, GoogleAuth API를 활용했다",
+    tags: [
+      {
+        name: "TikTok",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Vite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: TikTikClone,
+    source_code_link: "https://github.com/kwb020312/TikTik_Clone",
+  },
+  {
+    name: "DALL-E 이미지 생성",
+    description:
+      "DALL-E 엄청 핫하다해서 나도 AI 이미지 생성기 만들어보고싶었음! MERN(MongoDB, Express, React, Node.js)기술을 모두 활용했음",
+    tags: [
+      {
+        name: "DALL-E",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ReactJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: DALLEClone,
+    source_code_link: "https://github.com/kwb020312/AI_Image_Generator",
   },
 ];
 
